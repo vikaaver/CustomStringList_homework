@@ -21,5 +21,16 @@ public class CustomStringList {
             }
             return false;
         }
+        public String longestWord(){
+            String longest = "";
+            for (String str : list) {
+                if (str.length() > longest.length()) {
+                    longest = str;
+                }
+            return longest;
+        }
+
+            }
+        }
     }
 
